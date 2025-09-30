@@ -14,7 +14,7 @@ class SportsController < ApplicationController
     if sport.save
       render json: sports
     else
-      render json: sports.errors, status: :unprocessable_entity
+      render json: sport.errors, status: :unprocessable_entity
     end
   end
 end
