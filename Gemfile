@@ -63,4 +63,4 @@ group :test do
 end
 
 gem 'bcrypt', '~> 3.1.7' # For hashing passwords securely
-gem 'jwt', '~> 2.2'
+gem 'jwt', '~> 3.1'
