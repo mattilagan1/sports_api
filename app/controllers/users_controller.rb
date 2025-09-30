@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_action :authorize_request
+
   def create
     user = User.new(
       name: params[:name],
